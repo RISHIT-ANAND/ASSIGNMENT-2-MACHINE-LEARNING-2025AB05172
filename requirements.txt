@@ -4,6 +4,6 @@ matplotlib
 seaborn
 scikit-learn
 xgboost
-streamlit
+streamlit >= 1.23.0
 plotly
 joblib
