@@ -255,23 +255,6 @@ Six different machine learning models were trained and evaluated on the phishing
 
 ---
 
-## 5. Recommendation for Production Deployment
-
-### **Primary Model: Random Forest**
-- **Reason**: Best balance of accuracy (97.06%), precision (98.01%), recall (95.31%)
-- **Confidence**: AUC-ROC of 0.9968 indicates reliable probability estimates
-- **Scalability**: Handles 30+ features without dimensionality reduction
-- **Interpretability**: Feature importance can be extracted for explainability
-
-### **Deployment Strategy**
-1. **Real-time Scoring**: Use Random Forest for immediate phishing detection
-2. **Confidence Threshold**: Set threshold at 0.7-0.8 probability to balance sensitivity
-3. **Ensemble Approach**: Combine with XGBoost for critical decisions (e.g., user reports)
-4. **Continuous Monitoring**: Track model performance on new phishing tactics
-5. **Feature Updates**: Periodically retrain as new phishing techniques emerge
-
----
-
 ## 7. How to Use
 
 ### Installation
